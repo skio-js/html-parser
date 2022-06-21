@@ -1,24 +1,27 @@
 {
-  "name": "@napi-rs/package-template",
-  "version": "1.0.0",
-  "description": "Template project for writing node package with napi-rs",
+  "name": "fakehtml",
+  "version": "0.0.1",
+  "description": "html parser",
   "main": "index.js",
-  "repository": "git@github.com:napi-rs/package-template.git",
+  "repository": "git@github.com:skio-js/fakehtml.git",
   "license": "MIT",
   "keywords": [
     "napi-rs",
-    "NAPI",
-    "N-API",
     "Rust",
     "node-addon",
-    "node-addon-api"
+    "html",
+    "dom",
+    "html parser",
+    "parser",
+    "parse5",
+    "fakehtml"
   ],
   "files": [
     "index.d.ts",
     "index.js"
   ],
   "napi": {
-    "name": "package-template",
+    "name": "fakedom",
     "triples": {
       "defaults": true,
       "additional": [
@@ -99,5 +102,20 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.2.1",
+  "optionalDependencies": {
+    "fakehtml-win32-x64-msvc": "0.0.1",
+    "fakehtml-darwin-x64": "0.0.1",
+    "fakehtml-linux-x64-gnu": "0.0.1",
+    "fakehtml-linux-x64-musl": "0.0.1",
+    "fakehtml-linux-arm64-gnu": "0.0.1",
+    "fakehtml-win32-ia32-msvc": "0.0.1",
+    "fakehtml-linux-arm-gnueabihf": "0.0.1",
+    "fakehtml-darwin-arm64": "0.0.1",
+    "fakehtml-android-arm64": "0.0.1",
+    "fakehtml-freebsd-x64": "0.0.1",
+    "fakehtml-linux-arm64-musl": "0.0.1",
+    "fakehtml-win32-arm64-msvc": "0.0.1",
+    "fakehtml-android-arm-eabi": "0.0.1"
+  }
 }
