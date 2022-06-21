@@ -21,7 +21,7 @@
     "html parser",
     "parser",
     "parse5",
-    "fakehtml"
+    "@skio/html-parser"
   ],
   "license": "MIT",
   "engines": {
@@ -31,7 +31,7 @@
     "registry": "https://registry.npmjs.org/",
     "access": "public"
   },
-  "repository": "git@github.com:skio-js/fakehtml.git",
+  "repository": "git@github.com:skio-js/@skio/html-parser.git",
   "libc": [
     "musl"
   ]

@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "html parser",
   "main": "index.js",
-  "repository": "git@github.com:skio-js/fakehtml.git",
+  "repository": "git@github.com:skio-js/@skio/html-parser.git",
   "license": "MIT",
   "keywords": [
     "napi-rs",
@@ -14,7 +14,7 @@
     "html parser",
     "parser",
     "parse5",
-    "fakehtml"
+    "@skio/html-parser"
   ],
   "files": [
     "index.d.ts",

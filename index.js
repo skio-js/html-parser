@@ -25,24 +25,24 @@ switch (platform) {
   case 'android':
     switch (arch) {
       case 'arm64':
-        localFileExisted = existsSync(join(__dirname, 'fake_html.android-arm64.node'))
+        localFileExisted = existsSync(join(__dirname, 'skio.android-arm64.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./fake_html.android-arm64.node')
+            nativeBinding = require('./skio.android-arm64.node')
           } else {
-            nativeBinding = require('fakehtml-android-arm64')
+            nativeBinding = require('@skio/html-parser-android-arm64')
           }
         } catch (e) {
           loadError = e
         }
         break
       case 'arm':
-        localFileExisted = existsSync(join(__dirname, 'fake_html.android-arm-eabi.node'))
+        localFileExisted = existsSync(join(__dirname, 'skio.android-arm-eabi.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./fake_html.android-arm-eabi.node')
+            nativeBinding = require('./skio.android-arm-eabi.node')
           } else {
-            nativeBinding = require('fakehtml-android-arm-eabi')
+            nativeBinding = require('@skio/html-parser-android-arm-eabi')
           }
         } catch (e) {
           loadError = e
@@ -55,36 +55,36 @@ switch (platform) {
   case 'win32':
     switch (arch) {
       case 'x64':
-        localFileExisted = existsSync(join(__dirname, 'fake_html.win32-x64-msvc.node'))
+        localFileExisted = existsSync(join(__dirname, 'skio.win32-x64-msvc.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./fake_html.win32-x64-msvc.node')
+            nativeBinding = require('./skio.win32-x64-msvc.node')
           } else {
-            nativeBinding = require('fakehtml-win32-x64-msvc')
+            nativeBinding = require('@skio/html-parser-win32-x64-msvc')
           }
         } catch (e) {
           loadError = e
         }
         break
       case 'ia32':
-        localFileExisted = existsSync(join(__dirname, 'fake_html.win32-ia32-msvc.node'))
+        localFileExisted = existsSync(join(__dirname, 'skio.win32-ia32-msvc.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./fake_html.win32-ia32-msvc.node')
+            nativeBinding = require('./skio.win32-ia32-msvc.node')
           } else {
-            nativeBinding = require('fakehtml-win32-ia32-msvc')
+            nativeBinding = require('@skio/html-parser-win32-ia32-msvc')
           }
         } catch (e) {
           loadError = e
         }
         break
       case 'arm64':
-        localFileExisted = existsSync(join(__dirname, 'fake_html.win32-arm64-msvc.node'))
+        localFileExisted = existsSync(join(__dirname, 'skio.win32-arm64-msvc.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./fake_html.win32-arm64-msvc.node')
+            nativeBinding = require('./skio.win32-arm64-msvc.node')
           } else {
-            nativeBinding = require('fakehtml-win32-arm64-msvc')
+            nativeBinding = require('@skio/html-parser-win32-arm64-msvc')
           }
         } catch (e) {
           loadError = e
@@ -97,24 +97,24 @@ switch (platform) {
   case 'darwin':
     switch (arch) {
       case 'x64':
-        localFileExisted = existsSync(join(__dirname, 'fake_html.darwin-x64.node'))
+        localFileExisted = existsSync(join(__dirname, 'skio.darwin-x64.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./fake_html.darwin-x64.node')
+            nativeBinding = require('./skio.darwin-x64.node')
           } else {
-            nativeBinding = require('fakehtml-darwin-x64')
+            nativeBinding = require('@skio/html-parser-darwin-x64')
           }
         } catch (e) {
           loadError = e
         }
         break
       case 'arm64':
-        localFileExisted = existsSync(join(__dirname, 'fake_html.darwin-arm64.node'))
+        localFileExisted = existsSync(join(__dirname, 'skio.darwin-arm64.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./fake_html.darwin-arm64.node')
+            nativeBinding = require('./skio.darwin-arm64.node')
           } else {
-            nativeBinding = require('fakehtml-darwin-arm64')
+            nativeBinding = require('@skio/html-parser-darwin-arm64')
           }
         } catch (e) {
           loadError = e
@@ -128,12 +128,12 @@ switch (platform) {
     if (arch !== 'x64') {
       throw new Error(`Unsupported architecture on FreeBSD: ${arch}`)
     }
-    localFileExisted = existsSync(join(__dirname, 'fake_html.freebsd-x64.node'))
+    localFileExisted = existsSync(join(__dirname, 'skio.freebsd-x64.node'))
     try {
       if (localFileExisted) {
-        nativeBinding = require('./fake_html.freebsd-x64.node')
+        nativeBinding = require('./skio.freebsd-x64.node')
       } else {
-        nativeBinding = require('fakehtml-freebsd-x64')
+        nativeBinding = require('@skio/html-parser-freebsd-x64')
       }
     } catch (e) {
       loadError = e
@@ -143,23 +143,23 @@ switch (platform) {
     switch (arch) {
       case 'x64':
         if (isMusl()) {
-          localFileExisted = existsSync(join(__dirname, 'fake_html.linux-x64-musl.node'))
+          localFileExisted = existsSync(join(__dirname, 'skio.linux-x64-musl.node'))
           try {
             if (localFileExisted) {
-              nativeBinding = require('./fake_html.linux-x64-musl.node')
+              nativeBinding = require('./skio.linux-x64-musl.node')
             } else {
-              nativeBinding = require('fakehtml-linux-x64-musl')
+              nativeBinding = require('@skio/html-parser-linux-x64-musl')
             }
           } catch (e) {
             loadError = e
           }
         } else {
-          localFileExisted = existsSync(join(__dirname, 'fake_html.linux-x64-gnu.node'))
+          localFileExisted = existsSync(join(__dirname, 'skio.linux-x64-gnu.node'))
           try {
             if (localFileExisted) {
-              nativeBinding = require('./fake_html.linux-x64-gnu.node')
+              nativeBinding = require('./skio.linux-x64-gnu.node')
             } else {
-              nativeBinding = require('fakehtml-linux-x64-gnu')
+              nativeBinding = require('@skio/html-parser-linux-x64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -168,23 +168,23 @@ switch (platform) {
         break
       case 'arm64':
         if (isMusl()) {
-          localFileExisted = existsSync(join(__dirname, 'fake_html.linux-arm64-musl.node'))
+          localFileExisted = existsSync(join(__dirname, 'skio.linux-arm64-musl.node'))
           try {
             if (localFileExisted) {
-              nativeBinding = require('./fake_html.linux-arm64-musl.node')
+              nativeBinding = require('./skio.linux-arm64-musl.node')
             } else {
-              nativeBinding = require('fakehtml-linux-arm64-musl')
+              nativeBinding = require('@skio/html-parser-linux-arm64-musl')
             }
           } catch (e) {
             loadError = e
           }
         } else {
-          localFileExisted = existsSync(join(__dirname, 'fake_html.linux-arm64-gnu.node'))
+          localFileExisted = existsSync(join(__dirname, 'skio.linux-arm64-gnu.node'))
           try {
             if (localFileExisted) {
-              nativeBinding = require('./fake_html.linux-arm64-gnu.node')
+              nativeBinding = require('./skio.linux-arm64-gnu.node')
             } else {
-              nativeBinding = require('fakehtml-linux-arm64-gnu')
+              nativeBinding = require('@skio/html-parser-linux-arm64-gnu')
             }
           } catch (e) {
             loadError = e
@@ -192,12 +192,12 @@ switch (platform) {
         }
         break
       case 'arm':
-        localFileExisted = existsSync(join(__dirname, 'fake_html.linux-arm-gnueabihf.node'))
+        localFileExisted = existsSync(join(__dirname, 'skio.linux-arm-gnueabihf.node'))
         try {
           if (localFileExisted) {
-            nativeBinding = require('./fake_html.linux-arm-gnueabihf.node')
+            nativeBinding = require('./skio.linux-arm-gnueabihf.node')
           } else {
-            nativeBinding = require('fakehtml-linux-arm-gnueabihf')
+            nativeBinding = require('@skio/html-parser-linux-arm-gnueabihf')
           }
         } catch (e) {
           loadError = e
