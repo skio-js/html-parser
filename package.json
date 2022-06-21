@@ -21,7 +21,7 @@
     "index.js"
   ],
   "napi": {
-    "name": "fakedom",
+    "name": "fake_html",
     "triples": {
       "defaults": true,
       "additional": [
@@ -102,20 +102,5 @@
     "singleQuote": true,
     "arrowParens": "always"
   },
-  "packageManager": "yarn@3.2.1",
-  "optionalDependencies": {
-    "fakehtml-win32-x64-msvc": "0.0.1",
-    "fakehtml-darwin-x64": "0.0.1",
-    "fakehtml-linux-x64-gnu": "0.0.1",
-    "fakehtml-linux-x64-musl": "0.0.1",
-    "fakehtml-linux-arm64-gnu": "0.0.1",
-    "fakehtml-win32-ia32-msvc": "0.0.1",
-    "fakehtml-linux-arm-gnueabihf": "0.0.1",
-    "fakehtml-darwin-arm64": "0.0.1",
-    "fakehtml-android-arm64": "0.0.1",
-    "fakehtml-freebsd-x64": "0.0.1",
-    "fakehtml-linux-arm64-musl": "0.0.1",
-    "fakehtml-win32-arm64-msvc": "0.0.1",
-    "fakehtml-android-arm-eabi": "0.0.1"
-  }
+  "packageManager": "yarn@3.2.1"
 }

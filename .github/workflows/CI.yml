@@ -1,7 +1,7 @@
 name: CI
 env:
   DEBUG: napi:*
-  APP_NAME: fakedom
+  APP_NAME: fake_html
   MACOSX_DEPLOYMENT_TARGET: '10.13'
 'on':
   push:
