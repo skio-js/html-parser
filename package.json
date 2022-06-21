@@ -1,6 +1,6 @@
 {
   "name": "fakehtml",
-  "version": "0.0.5",
+  "version": "0.0.1",
   "description": "html parser",
   "main": "index.js",
   "repository": "git@github.com:skio-js/fakehtml.git",
