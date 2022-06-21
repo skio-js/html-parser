@@ -1,5 +1,5 @@
 {
-  "name": "fakehtml-linux-x64-musl",
+  "name": "@skio/html-parser-linux-x64-musl",
   "version": "0.0.1",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "fake_html.linux-x64-musl.node",
+  "main": "skio.linux-x64-musl.node",
   "files": [
-    "fake_html.linux-x64-musl.node"
+    "skio.linux-x64-musl.node"
   ],
   "description": "html parser",
   "keywords": [

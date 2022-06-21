@@ -1,5 +1,5 @@
 {
-  "name": "fakehtml-win32-arm64-msvc",
+  "name": "@skio/html-parser-win32-arm64-msvc",
   "version": "0.0.1",
   "os": [
     "win32"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "fake_html.win32-arm64-msvc.node",
+  "main": "skio.win32-arm64-msvc.node",
   "files": [
-    "fake_html.win32-arm64-msvc.node"
+    "skio.win32-arm64-msvc.node"
   ],
   "description": "html parser",
   "keywords": [

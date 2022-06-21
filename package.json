@@ -1,5 +1,5 @@
 {
-  "name": "fakehtml",
+  "name": "@skio/html-parser",
   "version": "0.0.1",
   "description": "html parser",
   "main": "index.js",
@@ -21,7 +21,7 @@
     "index.js"
   ],
   "napi": {
-    "name": "fake_html",
+    "name": "skio",
     "triples": {
       "defaults": true,
       "additional": [

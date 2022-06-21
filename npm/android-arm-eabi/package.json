@@ -1,5 +1,5 @@
 {
-  "name": "fakehtml-android-arm-eabi",
+  "name": "@skio/html-parser-android-arm-eabi",
   "version": "0.0.1",
   "os": [
     "android"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm"
   ],
-  "main": "fake_html.android-arm-eabi.node",
+  "main": "skio.android-arm-eabi.node",
   "files": [
-    "fake_html.android-arm-eabi.node"
+    "skio.android-arm-eabi.node"
   ],
   "description": "html parser",
   "keywords": [

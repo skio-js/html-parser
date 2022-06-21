@@ -1,3 +1,3 @@
-# `fakehtml-android-arm-eabi`
+# `@skio/html-parser-android-arm-eabi`
 
-This is the **armv7-linux-androideabi** binary for `fakehtml`
+This is the **armv7-linux-androideabi** binary for `@skio/html-parser`

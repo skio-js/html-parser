@@ -1,3 +1,3 @@
-# `fakehtml-win32-arm64-msvc`
+# `@skio/html-parser-win32-arm64-msvc`
 
-This is the **aarch64-pc-windows-msvc** binary for `fakehtml`
+This is the **aarch64-pc-windows-msvc** binary for `@skio/html-parser`

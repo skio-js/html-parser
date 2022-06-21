@@ -1,5 +1,5 @@
 {
-  "name": "fakehtml-darwin-arm64",
+  "name": "@skio/html-parser-darwin-arm64",
   "version": "0.0.1",
   "os": [
     "darwin"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "fake_html.darwin-arm64.node",
+  "main": "skio.darwin-arm64.node",
   "files": [
-    "fake_html.darwin-arm64.node"
+    "skio.darwin-arm64.node"
   ],
   "description": "html parser",
   "keywords": [

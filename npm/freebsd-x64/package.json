@@ -1,5 +1,5 @@
 {
-  "name": "fakehtml-freebsd-x64",
+  "name": "@skio/html-parser-freebsd-x64",
   "version": "0.0.1",
   "os": [
     "freebsd"
@@ -7,9 +7,9 @@
   "cpu": [
     "x64"
   ],
-  "main": "fake_html.freebsd-x64.node",
+  "main": "skio.freebsd-x64.node",
   "files": [
-    "fake_html.freebsd-x64.node"
+    "skio.freebsd-x64.node"
   ],
   "description": "html parser",
   "keywords": [

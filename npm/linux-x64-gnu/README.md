@@ -1,3 +1,3 @@
-# `fakehtml-linux-x64-gnu`
+# `@skio/html-parser-linux-x64-gnu`
 
-This is the **x86_64-unknown-linux-gnu** binary for `fakehtml`
+This is the **x86_64-unknown-linux-gnu** binary for `@skio/html-parser`

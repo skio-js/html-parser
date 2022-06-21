@@ -1,5 +1,5 @@
 {
-  "name": "fakehtml-android-arm64",
+  "name": "@skio/html-parser-android-arm64",
   "version": "0.0.1",
   "os": [
     "android"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm64"
   ],
-  "main": "fake_html.android-arm64.node",
+  "main": "skio.android-arm64.node",
   "files": [
-    "fake_html.android-arm64.node"
+    "skio.android-arm64.node"
   ],
   "description": "html parser",
   "keywords": [

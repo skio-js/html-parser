@@ -1,5 +1,5 @@
 {
-  "name": "fakehtml-linux-arm-gnueabihf",
+  "name": "@skio/html-parser-linux-arm-gnueabihf",
   "version": "0.0.1",
   "os": [
     "linux"
@@ -7,9 +7,9 @@
   "cpu": [
     "arm"
   ],
-  "main": "fake_html.linux-arm-gnueabihf.node",
+  "main": "skio.linux-arm-gnueabihf.node",
   "files": [
-    "fake_html.linux-arm-gnueabihf.node"
+    "skio.linux-arm-gnueabihf.node"
   ],
   "description": "html parser",
   "keywords": [

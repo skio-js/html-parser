@@ -1,3 +1,3 @@
-# `fakehtml-darwin-arm64`
+# `@skio/html-parser-darwin-arm64`
 
-This is the **aarch64-apple-darwin** binary for `fakehtml`
+This is the **aarch64-apple-darwin** binary for `@skio/html-parser`
